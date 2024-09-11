@@ -1,0 +1,82 @@
+<style>
+        .container {
+            display: flex;
+            justify-content: space-around; /* You can use space-between or center depending on spacing needs */
+        }
+
+        .box1 {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(18, 156, 202);
+            margin: 20px;
+            text-align: left;
+            line-height: 40px;
+            font-size: 40px;
+            border: solid;
+            border-color: antiquewhite;
+           
+
+        }
+        .box2 {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(145, 195, 37);
+            margin: 20px;
+            text-align: left;
+            line-height: 30px;
+            font-size: 40px;
+            border: solid;
+            border-color: antiquewhite;
+
+        }
+        .box3 {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(188, 28, 108);
+            margin: 20px;
+            text-align: left;
+            line-height: 40px;
+            font-size: 40px;
+            border: solid;
+            border-color: antiquewhite;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box1">About me
+        <h6> Hello I'm Hamsa Abhishek</h6>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS11f6Wa-1GohLd-aY6hx06lbVGQibUKKdiQw&s">
+        
+    </div>
+    <div class="box2">Skills
+        <h6>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            </ul>
+        </h6>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s">
+    </div>
+    
+    <div class="box3">Contact me
+        <h6>
+            <form>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="mesg">Message:</label><br>
+                <input type="text" id="mesg" width="100px" name="mesg">
+              </form>
+              <button>Send</button>
+        </h6>
+    </div>
+        
+        
+    </div>
+</div>
